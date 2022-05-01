@@ -109,7 +109,7 @@ button {
 }
 
 .purple {
-    color: #7342d6;
+    color: rgb(100, 21, 255);
 }
 
 .header__wrapper {
@@ -200,6 +200,7 @@ FEATURES
 .features__title {
     font-size: 60px;
     color: #243e63;
+    font-weight: 900;
     
 }
 
@@ -226,19 +227,19 @@ FEATURES
     border: 1px solid rgb(229, 231, 235);
     padding: 25px;
     border-radius: 999px;
-    
+    margin-top: 40px;
 }
 
 .features__icon {
     width: 30px;
     height: 30px;
-
-
 }
 
 .grid__content--wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .grid__content--container {
@@ -246,6 +247,8 @@ FEATURES
     justify-content: center;
     align-items: flex-start;
     width: calc(100% / 3);
+    max-width: 480px;
+    width: 341px;
 }
 
 .grid__text {
@@ -266,3 +269,44 @@ FEATURES
     font-weight: 500;
     color: #00000091;
 }
+
+/* 
+
+QUALITY WORKS SECTION
+
+*/
+#works {
+
+}
+
+.works__left--content {
+    display: flex;
+    flex-direction: column;
+}
+
+.works__container {
+    padding: 120px 0;
+    display: flex;
+    height: 895px;
+}
+
+.works__para {
+    font-size: 22.5px;
+    color: #7C8BA1;
+    line-height: 1.5;
+    margin: 20px 0 0;
+
+}
+
+.works__button {
+    border: 2px solid #000000;
+    padding: 15px 40px;
+    margin-top: 40px;
+}
+
+.works__img {
+    width: 50%;
+}
+
+
+
