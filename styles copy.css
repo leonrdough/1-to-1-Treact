@@ -335,7 +335,7 @@ STEPS SECTION
 }
 
 .steps__right--content {
-
+    padding: 40px 0;
 }
 
 .step__one {
@@ -349,6 +349,7 @@ h6 {
     font-weight: 600;
     font-size: 25px;
     color: #243E63;
+    
 }
 
 .steps__description {
@@ -375,6 +376,22 @@ VALUES SECTION
 
 */
 
+h3 {
+    margin-left: 18px;
+}
+
+.values__left--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    padding: 40px 0;
+}
+
+.values__split--container {
+    margin: 40px 40px 0 0;
+}
+
 .values__split {
     display: flex;
 
@@ -382,4 +399,81 @@ VALUES SECTION
 
 .values__split--flex {
     display: flex;
+}
+.values__icon {
+    border: 2px transparent #000000;
+    border-radius: 9999px;
+    padding: 10px;
+}
+
+.fa-btc {
+    color: #299337;
+    background-color: #9AE6B4;
+}
+
+.fa-briefcase {
+    color: #9c0000;
+    background-color: #FEB2B2;
+}
+
+.values__click {
+    background-color: #6415FF;
+    color: #F7FAFC ;
+    font-size: 17.5px;
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin-top: 60px;
+}
+
+/* 
+
+PRICING SECTION
+
+*/
+
+.pricing__container {
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000000;
+    padding: 40px 80px;
+
+}
+h4 {
+    font-size: 25px;
+}
+
+.box__price {
+    font-size: 60px;
+}
+
+.box__subtitle {
+    font-weight: 700;
+    color: #A0AEC0;
+}
+
+.box__subtitle--2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.box__detail {
+    color: #718096;
+    margin-top: 25px;
+}
+
+.box__button1 {
+    padding: 20px 40px;
+    border-radius: 60px;
+
+    background-color: #16d56c;
 }
