@@ -561,8 +561,35 @@ TESTIMONIALS START
 
 .stars__wrapper {
     display: flex;
+    margin-top: 50px;
 }
 .fa-star {
     color: rgb(246, 173, 85);
     width: 25px;
+    margin-right: 5px;
+    
+}
+
+.testimonials__right--content {
+    padding: 40px 0 0 40px;
+}
+
+.test__subtitle {
+    margin-top: 20px;
+}
+
+.test__para {
+    margin: 20px 0 50px;
+    font-size: 20px;
+    color: #4a5568;
+    line-height: 32.5px;
+}
+
+.mug {
+    width: 20.8%;
+}
+
+.testimonials__profile--dash {
+    display: flex;
+    justify-content: space-between;
 }
