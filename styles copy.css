@@ -449,12 +449,25 @@ PRICING SECTION
     flex-direction: column;
     align-items: center;
     border: 2px solid #e5e7eb;
-    border-radius: 10px;
+    border-radius: 12px;
     margin: 80px 40px 0 0;
     padding: 0 40px;
-    border-top: 8px solid;
+    
     line-height: 1.625
 }
+
+.box__border--top {
+    border-top: 8px solid;
+}
+
+.box__first--border--top {
+    border-top-background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.box__last--border--top {
+    
+}
+
 
 .box__top {
     display: flex;
@@ -462,6 +475,11 @@ PRICING SECTION
     flex-direction: column;
     padding: 40px 0;
     
+}
+
+.box__two {
+    background: #6415FF linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);;
+    border-top: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .middle__box {
@@ -504,7 +522,11 @@ h4 {
     margin-top: 25px;
 }
 
-.box__button1 {
+.box__middle--invert {
+    color: #f7fafc;
+}
+
+.box__button0 {
     padding: 20px 40px;
     border-radius: 120px;
     font-size: 17.5px;
@@ -515,6 +537,32 @@ h4 {
 
     color: #F7FAFC;
     border: none;
+
+}
+
+.box__button--0--color {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
+.box__button--middle {
+    color: #6415FF;
+    background: #f7fafc;
+}
+
+.box__button--last {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+/* 
+
+TESTIMONIALS START
+
+*/
+
+.stars__wrapper {
+    display: flex;
+}
+.fa-star {
+    color: rgb(246, 173, 85);
+    width: 25px;
+}
