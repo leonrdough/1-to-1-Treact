@@ -196,6 +196,7 @@ FEATURES
 
 .features__main--subtitle {
     font-weight: 700;
+    font-size: 20px;
 }
 
 .features__title {
@@ -575,21 +576,97 @@ TESTIMONIALS START
 }
 
 .test__subtitle {
+    font-size: 20px;
+    color: rgb(36, 62, 99);
     margin-top: 20px;
 }
 
 .test__para {
     margin: 20px 0 50px;
-    font-size: 20px;
-    color: #4a5568;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(74, 85, 104);
     line-height: 32.5px;
 }
 
 .mug {
-    width: 20.8%;
+    max-width: 100px;
+    border-radius: 9999px;
 }
 
 .testimonials__profile--dash {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.t__name {
+    font-size: 20px;
+}
+
+.testimonial__full--profile {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__role {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+
+.testimonial__btn--wrapper {
+    display: flex;
+    justify-items: flex-end;
+}
+
+.testimonial__btn {
+    padding: 1rem;
+    margin: 0 12px;
+    border: 0;
+    border-radius: 9999px;
+    color: rgb(100, 21, 255)
+}
+
+/* 
+
+FAQS SECTION
+
+*/
+
+.faqs__container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* 
+
+FAQS
+
+*/
+
+.faqs__button {
+    width: 100%;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: rgb(237, 242, 247);
+}
+
+.faqs__dropdown--wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box__words {
+    font-size: 25px;
+    font-weight: 600;
+    color: #243E63;
 }
