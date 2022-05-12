@@ -650,9 +650,19 @@ FAQS
 
 */
 
+.faqs__container {
+    padding: 120px 0;
+}
+
+.faq__buttons--wrapper {
+    max-width: 896px;
+    margin-top: 60px;
+}
+
+
 .faqs__button {
     width: 100%;
-    padding: 20px 40px;
+    padding: 16px 40px;
     border: none;
     border-radius: 10px;
     margin-top: 25px;
@@ -666,7 +676,128 @@ FAQS
 }
 
 .box__words {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: #243E63;
+}
+
+.fa-angle-down {
+    width: 20px;
+    height: 20px;
+}
+
+/* 
+
+BEFORE FOOTER SECTION
+
+*/
+
+.bf__h1 {
+    font-size: 37.5px;
+    max-width: 45%;
+    color: rgb(247, 250, 252);
+}
+
+.bf__container {
+    max-width: ;
+    padding: 120px 0;
+}
+
+.bf__background {
+    display: flex;
+    background: #6415FF;
+    padding: 120px 0;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.get__started--row {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+}
+
+.get__started--btns--wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.bf__btn {
+    font-size: 20px;
+    padding: 25px 50px;
+    border-radius: 9999px;
+    background-color: #718096;
+    color:#F7FAFC;
+    border: none;
+    margin-right: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bf__btn--1 {
+    background-color: #f56565;
+}
+.bf__btn--2 {
+    background-color: #6415FF;
+    border: 1px solid rgb(160, 174, 192);
+}
+
+
+/* 
+
+FOOTER 
+
+*/
+
+footer {
+    background-color: #6415FF;
+    padding: 120px 0;
+    
+}
+
+.footer__container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footer__top--content--container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__bottom--contents--container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer__logo {
+    width: 40px;
+    filter: grayscale(1) invert(1);
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__titles {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F7FAFC;
+    margin-bottom: 18px;
+}
+
+.footer__link {
+    color: #F7FAFC;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 17.5px;
+}
+
+.footer__social--links--wrapper {
+
 }
