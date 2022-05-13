@@ -87,17 +87,32 @@ p {
 .nav__link {
     font-weight: 600;
     font-size: 17.5px;
-    margin: 0px 1.5rem;   
+    margin: 0 30px;   
     border-bottom-width: 0px;
     color: rgba(0, 0, 0, 0.795);
 }
 
+.nav__login {
+    margin: 0 30px 0 60px;
+}
+
 .nav__link--primary {
-    border: 6px solid #7342d6;
-    background-color: #7342d6;
+    background-color: #6415FF;
+    
     color: white;
-    padding: 8px 36px;
+    padding: 15px 40px;
     border-radius: 30px;
+    margin: 0;
+    transition: all 300ms ease;
+}
+
+
+.nav__link--primary:hover,
+.email__button:hover,
+.works__click:hover,
+.values__click:hover{
+    background-color: #6030b1;
+    cursor: pointer;
 }
 
 .nav__link--styled {
@@ -111,7 +126,7 @@ HEADER
 */
 
 button {
-
+    cursor: pointer;
 }
 
 .purple {
@@ -146,22 +161,34 @@ button {
 }
 
 .header__email {
-    padding: 25px 240px 24px 40px;
-    border-radius: 36px;
-    border: 2px solid #00000011;
+    padding: 25px 240px 25px 40px;
     width: 100%;
+    border-radius: 100px;
+    border: 2px solid #a0aec0;
+    font-size: 18px;
+    color: #A0AEC0;
 }
 
 .email__button {
-    border-radius: 36px;
-    width: 100%;
-    border: 6px solid #7342d6;
-    background-color: #7342d6;
-    color: white;
+    position: absolute;
+    padding: 20px 0;
+    background-color: #6415FF;
+    border: none;
+    color: #F7FAFC;
+    font-weight: 700;
+    font-size: 18px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    left: 300px;
+    border-radius: 100px;
+    transition: all 300ms ease;
 }
 
 .header__input--wrapper {
     display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .header__content--left--bottom {
@@ -197,6 +224,7 @@ FEATURES
 .features__main--subtitle {
     font-weight: 700;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .features__title {
@@ -315,6 +343,7 @@ QUALITY WORKS SECTION
     border-radius: 30px;
     padding: 15px 40px;
     margin-top: 40px;
+    transition: all 300ms ease;
 }
 
 .works__img {
@@ -426,6 +455,7 @@ h3 {
     border-radius: 30px;
     padding: 15px 40px;
     margin-top: 60px;
+    transition: all 300ms ease;
 }
 
 /* 
@@ -538,7 +568,13 @@ h4 {
 
     color: #F7FAFC;
     border: none;
+    transition: all 300ms ease;
+}
 
+.box__button0:hover {
+    filter: brightness(99%);
+    opacity: .86;
+    transform: scale(0.9);
 }
 
 .box__button--0--color {
@@ -627,7 +663,12 @@ TESTIMONIALS START
     margin: 0 12px;
     border: 0;
     border-radius: 9999px;
-    color: rgb(100, 21, 255)
+    color: rgb(100, 21, 255);
+    transition: all 300ms ease;
+}
+
+.testimonial__btn:hover {
+    filter: brightness(80%);
 }
 
 /* 
@@ -643,12 +684,6 @@ FAQS SECTION
     align-items: center;
     flex-direction: column;
 }
-
-/* 
-
-FAQS
-
-*/
 
 .faqs__container {
     padding: 120px 0;
@@ -667,6 +702,11 @@ FAQS
     border-radius: 10px;
     margin-top: 25px;
     background-color: rgb(237, 242, 247);
+    transition: all 300ms ease;
+}
+
+.faqs__button:hover {
+    filter: brightness(95%);
 }
 
 .faqs__dropdown--wrapper {
@@ -737,10 +777,22 @@ BEFORE FOOTER SECTION
 
 .bf__btn--1 {
     background-color: #f56565;
+    transition: all 300ms ease;
 }
+
+.bf__btn--1:hover {
+    background-color: red;
+}
+
 .bf__btn--2 {
     background-color: #6415FF;
     border: 1px solid rgb(160, 174, 192);
+    transition: all 300ms ease;
+}
+
+.bf__btn--2:hover {
+    background-color: #F7FAFC;
+    color: #6415FF;
 }
 
 
@@ -753,7 +805,6 @@ FOOTER
 footer {
     background-color: #6415FF;
     padding: 120px 0;
-    
 }
 
 .footer__container {
@@ -766,8 +817,6 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 80px;
-    border-bottom: 2px solid #e5e7eb;
-
 }
 
 .footer__bottom--contents--container {
@@ -811,12 +860,20 @@ footer {
     margin-top: 15px;
     font-weight: 500;
     font-size: 17.5px;
+    padding-bottom: 5px;
+    transition: all 300ms ease;
+}
+
+.footer__link:hover {
+    border-bottom: 2px solid #F7FAFC;
 }
 
 .footer__social--links--wrapper {
 
 }
-
+.footer__line {
+    position: ;
+}
 .footer__rights {
     color: #F7FAFC;
     font-size: 20px;
@@ -826,4 +883,10 @@ footer {
     padding: 10px;
     border-radius: 9999px;
     background-color: #F7FAFC;
+    transition: all 300ms ease;
+}
+
+.fa-brands:hover {
+    cursor:pointer;
+    filter: brightness(90%);
 }
