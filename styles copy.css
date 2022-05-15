@@ -6,9 +6,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-.pad {
-    padding: 40px;
-}
+
 
 body {
     max-width: 100vw;
@@ -17,11 +15,18 @@ body {
 nav {
     height: 80px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
-    max-width: 100%;
+    /* 
+    width: 100%;
     height: auto;
+ */
+ width: 100%;
+ height: 100%;
+ max-height: 50vh;
 }
 
 
@@ -41,10 +46,6 @@ a {
 
 h1 {
     color: rgb(29, 26, 26);
-}
-
-p {
-
 }
 
 #landing {
@@ -253,7 +254,7 @@ FEATURES
     color: rgb(124, 139, 161);
     line-height: 2;
     margin-top: 20px;
-    max-width: 720px;
+    max-width: 70vh;
 }
 
 .features__wrapper {
@@ -326,7 +327,7 @@ QUALITY WORKS SECTION
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 520px;
+    max-width: 40vh;
     
 }
 
@@ -343,7 +344,7 @@ QUALITY WORKS SECTION
     color: #7C8BA1;
     line-height: 1.5;
     margin: 20px 0 0;
-
+    width: 100%;
 }
 
 .works__click {
@@ -377,6 +378,10 @@ STEPS SECTION
 
 .steps__right--content {
     padding: 40px 0;
+}
+
+.h2__steps {
+    margin-top: 16px;
 }
 
 .step__one {
@@ -430,12 +435,19 @@ h3 {
 }
 
 .values__split--container {
-    margin: 40px 40px 0 0;
+    margin: 40px 32px 0 0;
 }
 
 .values__split {
     display: flex;
 
+}
+
+.values__para {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 32px;
+        color: #718096;
 }
 
 .values__split--flex {
@@ -449,7 +461,7 @@ h3 {
 
 .fa-btc {
     color: #299337;
-    background-color: #9AE6B4;
+    background-color: #11ab47;
 }
 
 .fa-briefcase {
@@ -476,10 +488,10 @@ PRICING SECTION
 */
 
 .pricing__container {
-    padding: 120px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .boxes__wrapper {
@@ -494,7 +506,6 @@ PRICING SECTION
     border-radius: 12px;
     margin: 80px 40px 0 0;
     padding: 0 40px;
-    
     line-height: 1.625
 }
 
@@ -905,8 +916,8 @@ footer {
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width:1024px){
 
-    #landing {
-        flex-direction: ;
+    .row {
+        padding: 0 40px;
     }
     /* NAV */
 
@@ -961,20 +972,108 @@ footer {
     }
 
     .features__main--para {
-        font-size: 16px;
-        margin: 16px;
+        font-size: 20px;
     }
 
     /* WORKS */
 
     .works__left--content {
         width: 100%;
-        max-width: 391px;
     }
 
     .h2__titles {
-        font-size: 48px;
-        margin: 0;
+        font-size: 36px;
+    }
+
+    .works__para {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 32px;
+    }
+
+    .works__img {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        max-width: 50vh;
+    }
+
+    .works__click {
+        font-size: 14px;
+        padding: 15px 40px;
+    }
+
+    /* STEPS */
+
+    .steps__right--content {
+        max-width: 40vh;
+    }
+
+    .h2__steps{
+        margin-top: 16px;
+    }
+
+    h6 {
+        font-size: 25px;
+    }
+
+    .steps__description {
+        font-size: 17.5px;
+        margin-top: 12px;
+        line-height: 28px;
+    }
+
+    .step__one {
+        font-size: 36px;
+    }
+
+    /* VALUES */
+
+    .values__split {
+        flex-direction: column;
     }
     
+    .values__para {
+        font-size: 20px;
+        margin-top:20px;
+        max-width: 30vh;
+    }
+    h3 {
+        font-size:20px;
+    }
+
+    .values__click {
+        padding:12px 32px;
+        font-size: 14px;
+    }
+
+    /* PRICING */
+
+    .boxes__wrapper {
+        flex-direction: column;
+    }
+
+    /* GET STARTED */
+
+    .get__started--row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bf__h1 {
+        max-width: 70vh;
+    }
+
+    .get__started--btns--wrapper {
+        margin-top: 30px;
+    }
+
+    /* FOOTER */
+
+    .footer__top--content--container {
+        justify-content: space-around;
+    }
+    .footer__bottom--contents--container {
+        justify-content: space-around;
+    }
 }
